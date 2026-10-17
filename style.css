@@ -148,3 +148,22 @@ fieldset { max-width: 1000px; margin: 40px auto; }
 .objective { align-items: flex-start; gap: 40px; }
 .objective h1 { min-width: 230px; margin: 0; }
 .centered-list { font-size: 16px; }
+fieldset {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  column-gap: 40px;
+  align-items: start;
+}
+fieldset > .profile-container,
+fieldset > hr,
+fieldset > .objective {
+  grid-column: 1 / -1;
+}
+fieldset > h1 { margin: 0; }
+fieldset > .centered-list { margin: 0; padding-left: 20px; }
+fieldset > div.centered-list { padding-left: 0; }
+.centered-list p { margin: 0 0 10px; text-align: left; }
+.centered-list li { margin-bottom: 5px; }
+@media (max-width: 700px) {
+  fieldset { grid-template-columns: 1fr; }
+}
