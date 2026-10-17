@@ -139,3 +139,6 @@ color: darkgray;
     .write { width: 90%; }
     .listen{ width: 80%; }
 
+.objective { gap: 40px; }
+.objective p { max-width: none; }
+.centered-list { width: 100%; margin: 0; }
