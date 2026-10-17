@@ -142,3 +142,5 @@ color: darkgray;
 .objective { gap: 40px; }
 .objective p { max-width: none; }
 .centered-list { width: 100%; margin: 0; }
+ul.centered-list { padding-left: 25px; }
+.centered-list p { margin: 6px 0; }
