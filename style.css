@@ -144,3 +144,7 @@ color: darkgray;
 .centered-list { width: 100%; margin: 0; }
 ul.centered-list { padding-left: 25px; }
 .centered-list p { margin: 6px 0; }
+fieldset { max-width: 1000px; margin: 40px auto; }
+.objective { align-items: flex-start; gap: 40px; }
+.objective h1 { min-width: 230px; margin: 0; }
+.centered-list { font-size: 16px; }
